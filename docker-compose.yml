@@ -1,0 +1,24 @@
+services:
+  intellizo-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: intellizo-company-mcp:latest
+    container_name: intellizo-company-mcp
+    restart: unless-stopped
+    ports:
+      - "${HOST_PORT:-8001}:8000"
+    environment:
+      - MCP_HOST=0.0.0.0
+      - MCP_PORT=8000
+      - MCP_PATH=/mcp
+      - MCP_TRANSPORT=streamable-http
+      - LOG_LEVEL=INFO
+      - DATA_JSON_PATH=/app/data.json
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+

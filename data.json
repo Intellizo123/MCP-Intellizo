@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "company": "Intellizo Softwares",
+    "domain": "https://www.intellizosoftwares.com/",
+    "reviewed_date": "2026-10-21",
+    "source_files": [
+      "01_company_profile_culture_presence.pdf",
+      "02_services_and_technical_capabilities.pdf",
+      "03_ai_agents_mcp_ai_visibility.pdf",
+      "04_research_papers_and_insights_catalogue.pdf",
+      "05_faq_contact_privacy_careers_navigation.pdf"
+    ],
+    "coverage_note": "Source-backed archive of publicly accessible text; hidden, image-only, gated or dynamically loaded elements may be missing. Marketing statements are company claims, not verified facts."
+  },
+  "company": {
+    "name": "Intellizo Softwares",
+    "tagline": "IDEAS ReEngineered",
+    "description": "End-to-end software and AI consultancy focused on intelligent, scalable, tailor-made software products for operational excellence and growth.",
+    "why_intellizo": {
+      "innovative_solutions": "Custom software, AI, and SaaS solutions tailored to business needs.",
+      "reliable_expertise": "Team supports delivery, scalable systems, and user experiences.",
+      "results_that_matter": "Focus on measurable impact for efficiency and engagement."
+    },
+    "homepage_claims": {
+      "clients_served": "108+ globally",
+      "countries_operating_in": "8+",
+      "client_logo_labels": ["Nexclave", "YB", "Utratech", "Adani", "Tata", "OMC"],
+      "note": "Website claims, not independently verified."
+    },
+    "mission": "Becoming the unique and the best software cum digital agency to perform advertising and software solutions in the gloabl market. (spelling as published)",
+    "vision": "To become a global leader in technology and creativity. And building ourself a trusted partner for companies seeking business growth in global market. (wording as published)",
+    "operating_priorities": [
+      "Deliver intelligent, scalable, tailor-made software solutions.",
+      "Integrate solutions with existing business processes.",
+      "Maintain quality while meeting tight deadlines.",
+      "Drive innovation through AI and data-driven insights."
+    ],
+    "principles": {
+      "custom_solutions": "Projects crafted from scratch rather than templates.",
+      "scalable_tech": "Technology that works today and scales with future needs.",
+      "precision_ui_ux": "Visual design and functionality work together.",
+      "borderless_impact": "Connecting India and the world through technology."
+    },
+    "culture": {
+      "source_url": "https://www.intellizosoftwares.com/Intellizoculture.html",
+      "highlights": ["trust", "curiosity", "clarity"],
+      "insight": "Engineering discipline, creative freedom, bias for action; clarity over confusion, responsibility over hierarchy, long-term value over quick fixes.",
+      "published_principles": [
+        {"name": "Human-Centered Systems", "text": "Build around empathy, clarity, and real-world workflows."},
+        {"name": "Engineering with Clarity", "text": "Clean architecture, scalable code, simplicity, long-term decisions."},
+        {"name": "Responsible Innovation", "text": "Balance automation, intelligence, privacy, and trust."},
+        {"name": "Engineering First", "text": "Prioritize clean design, scalability, thoughtful problem-solving."},
+        {"name": "Ownership Over Hierarchy", "text": "Encourage people to take responsibility and fix what they see."},
+        {"name": "Curiosity Fuels Innovation", "text": "Question assumptions and learn continuously."},
+        {"name": "Build With Purpose", "text": "Focus on real problems, user value, and business impact rather than trends."}
+      ]
+    },
+    "global_presence": {
+      "source_url": "https://www.intellizosoftwares.com/globalpresence.html",
+      "regions_selectors": ["Asia Pacific", "Europe", "America", "India"],
+      "note": "No office addresses or country list exposed in accessible text."
+    },
+    "teams": {
+      "source_url": "https://www.intellizosoftwares.com/resources.html",
+      "intro": "Our Teams — Creative + Technical Excellence",
+      "member_counts_note": "Rendered page showed 0 members for every team; an indexed version showed non-zero counts. Verify before answering metric questions.",
+      "list": [
+        {"team": "AI & ML Lab", "focus": "Predictive models, automations, intelligent features", "roles": ["Head of AI", "ML Engineer", "Data Engineer", "MLOps"], "tools": ["Python", "TensorFlow/PyTorch", "SQL", "Airflow"]},
+        {"team": "Backend & APIs", "focus": "Microservices, scalable APIs, secure integrations, database design", "roles": ["Backend Architect", "Senior Dev", "API Engineer", "DBA"], "tools": ["Node.js / PHP / Java", "PostgreSQL", "Redis"]},
+        {"team": "Content & Creative", "focus": "Copy, visual campaigns, motion graphics, brand creative", "roles": ["Creative Director", "Copywriter", "Art Director", "Motion Designer"], "tools": ["Premiere", "After Effects", "Photoshop"]},
+        {"team": "QA & DevOps", "focus": "Release engineering, CI/CD, monitoring, automated testing", "roles": ["Site Reliability Lead", "QA Engineers", "SREs", "Automation Engineers"], "tools": ["GitHub Actions", "Docker", "Kubernetes", "Cypress"]},
+        {"team": "Frontend & Web", "focus": "UI implementation, performant SPA, accessibility-first frontends", "roles": ["Frontend Lead", "React/Vue Devs", "CSS/UX Integrator"], "tools": ["React", "Next.js", "Tailwind", "Web Vitals"]},
+        {"team": "UX / UI Studio", "focus": "User research, wireframes, interaction design, high-fidelity UI systems", "roles": ["Head of Design", "UX Researcher", "UI Designer", "Prototyper"], "tools": ["Figma", "Adobe", "Maze", "Miro"]},
+        {"team": "Digital & Growth", "focus": "Performance marketing, paid media, organic growth, analytics campaigns", "roles": ["Growth Lead", "SEO", "PPC", "Social & Analytics"], "tools": ["Google Ads", "Meta", "GA4", "SEMrush"]}
+      ]
+    }
+  },
+  "services": {
+    "overview_source_url": "https://www.intellizosoftwares.com/service.html",
+    "count": 6,
+    "technology_stack_labels": ["HTML", "Node.js", "React", "DevOps", "Angular", "MongoDB", "Redis", "Docker", "Ollama", "Mixtral", "PHP", "CSS", "JavaScript", "Ruby", "SQL", "Kotlin", "Java", "C++", "Python", "Swift", "React Native", "LangChain", ".NET", "MCP", "Kubernetes", "Ansible", "LangGraph"],
+    "technology_stack_note": "Read from image labels; verify spellings visually.",
+    "list": [
+      {
+        "name": "System Design & Consultancy",
+        "source_url": "https://www.intellizosoftwares.com/systemintegration.html",
+        "summary": "Secure, scalable architecture aligned with long-term goals; new platforms, legacy modernization, cloud migration, scaling digital operations.",
+        "capabilities": [
+          "Enterprise Architecture Design",
+          "System Design & Architecture",
+          "Security Engineering & Compliance (threat modeling, secure-by-design, compliance frameworks)",
+          "Performance Optimization & Scaling",
+          "IT Process Consultancy (SDLC maturity, DevOps adoption)",
+          "Cloud Infrastructure Design (secure, cost-optimized, multi-cloud)"
+        ],
+        "additional_offers": [
+          "Enterprise System Integration (hybrid cloud, microservices, legacy)",
+          "IT Process Optimization & Consultancy",
+          "Advanced System Architecture Design (high-availability, cloud-native, API orchestration)",
+          "Custom Enterprise Solutions (AI, cloud, system orchestration)"
+        ],
+        "process": ["Requirement Discovery", "Technical Assessment", "Architecture Planning", "Consultation & Strategy", "Documentation & Blueprinting", "Implementation Support"]
+      },
+      {
+        "name": "Web Application Development",
+        "source_url": "https://www.intellizosoftwares.com/webdevelopment.html",
+        "summary": "Custom, secure, scalable web applications; enterprise-grade and cloud-based systems.",
+        "capabilities": [
+          "Scalable Application Development (description truncated on page)",
+          "Enterprise-Grade Web Portals",
+          "ERP & CRM System Development",
+          "E-Commerce Website Development",
+          "Open API Development & Integration",
+          "UI/UX Engineering"
+        ],
+        "process": ["Discovery & Requirement Mapping", "Product Architecture & Prototyping", "Development & Engineering", "Continuous Support & Evolution"]
+      },
+      {
+        "name": "Mobile & Smart TV App Development",
+        "source_url": "https://www.intellizosoftwares.com/Mobile%26smarttvapp.html",
+        "summary": "Secure, scalable, user-centric mobile and Smart TV apps with consistent UI/UX and synchronized data across mobile, tablet and TV.",
+        "capabilities": [
+          "Android / iOS and cross-platform development (Swift, Kotlin; Flutter or React Native)",
+          "Progressive Web Apps (PWA)",
+          "Occasionally Connected / Disconnected Architecture",
+          "Enterprise Mobility Solutions (logistics, HR, workflow automation, collaboration)"
+        ],
+        "smart_tv_platforms": ["Tizen", "webOS", "Roku", "Android TV", "Google TV"],
+        "smart_tv_use_cases": ["OTT streaming", "Interactive content", "Enterprise dashboards", "Real-time monitoring systems"]
+      },
+      {
+        "name": "AI Development & Integration",
+        "source_url": "https://www.intellizosoftwares.com/ai%26machinelearning.html",
+        "summary": "AI development, integration and strategy consulting across ML, computer vision, NLP, predictive analytics and automation.",
+        "capabilities": [
+          "Custom AI Model Development",
+          "Computer Vision Systems (image recognition, video analytics, OCR, object detection, tracking)",
+          "NLP Applications (summarization, classification, conversational AI, retrieval)",
+          "Predictive Analytics",
+          "Chatbots & Automation",
+          "AI Integration Services (CRMs, ERPs, mobile apps, enterprise platforms)"
+        ],
+        "core_strategy_capabilities": [
+          "AI Readiness & Maturity Assessment",
+          "Business Problem Identification & Prioritization",
+          "AI Roadmap Design",
+          "Data Strategy, Architecture & Pipeline Planning",
+          "Model Selection Guidelines & Blueprinting",
+          "AI Governance, Security & Risk Control",
+          "Cost–Benefit Evaluation & ROI Modeling",
+          "Long-Term Sustainability & Scaling Strategy"
+        ],
+        "process": ["Discover", "Develop", "Deploy", "Optimize"]
+      },
+      {
+        "name": "Indoor Navigation Solutions",
+        "source_url": "https://www.intellizosoftwares.com/indoornavigation.html",
+        "summary": "Indoor navigation for malls, hospitals, campuses, events, warehouses, enterprises and smart facilities using real-time positioning, asset tracking, geofencing and analytics.",
+        "capabilities": [
+          "Indoor Mapping & Digital Layouts",
+          "WiFi/UWB-Based Beacon Installation",
+          "Navigation Apps (turn-by-turn)",
+          "Asset Tracking & Movement Analytics",
+          "Geofencing & Zone-Based Alerts",
+          "Backend Dashboard for Monitoring"
+        ],
+        "process": ["Assess & Design", "Build & Automate", "Monitor & Improvement"]
+      },
+      {
+        "name": "Blockchain & NFT Development",
+        "source_url": "https://www.intellizosoftwares.com/Blockchaindevelopment.html",
+        "summary": "Secure, transparent blockchain solutions for startups and enterprises: smart contracts, DApps, private blockchain networks, tokenization, digital identity; also supply-chain tracking, audits, security assessments.",
+        "benefits_visible": [
+          "Automate and Secure Business Processes (smart contracts)",
+          "Enable Tamper-Proof Recordkeeping (immutable ledgers)"
+        ],
+        "note": "Only visible portion captured; more benefits may exist."
+      }
+    ]
+  },
+  "ai_offerings": {
+    "slogans": ["Your unfair AI advantage", "With AI analytics, all you have to do is ask."],
+    "slogan_note": "Marketing phrases, not technical guarantees.",
+    "ai_agents": {
+      "source_url": "https://www.intellizosoftwares.com/aiagents.html",
+      "summary": "Agents built around a business (not predefined use cases) that observe, reason and act across operations while learning and improving.",
+      "capabilities": [
+        {"name": "Observe & Monitor", "text": "Track metrics, workflows, signals, behaviors; detect changes, patterns, anomalies in real time."},
+        {"name": "Analyze & Reason", "text": "Connect insights across systems, find root causes, compare scenarios, explain why."},
+        {"name": "Recommend & Support Decisions", "text": "Optimization suggestions, risk flags, priority scoring."},
+        {"name": "Automate & Execute", "text": "Trigger workflows, alerts, reports, approvals, system updates."},
+        {"name": "Learn & Improve Over Time", "text": "Evolve from feedback, outcomes, performance tuning."},
+        {"name": "Communicate & Collaborate", "text": "Natural language, dashboards, copilots, embedded interfaces."}
+      ],
+      "integration_environments": ["ERP and CRM systems", "Data warehouses and analytics platforms", "Cloud and on-premises environments", "Internal tools", "Business dashboards"],
+      "faq": [
+        {"q": "Are these AI agents pre-built products?", "a": "All agents are custom-designed around workflows, data, and objectives."},
+        {"q": "Will AI agents replace our team?", "a": "They reduce repetitive work and enhance decision-making so teams can focus on higher-value work."},
+        {"q": "How secure are these agents?", "a": "Security, access control, and data governance are part of the architecture from day one."},
+        {"q": "Can agents act autonomously?", "a": "Yes, within customer-defined rules; human approval workflows are said to be available."},
+        {"q": "How long does deployment take?", "a": "Phased rollouts, starting with pilots and scaling into production."}
+      ]
+    },
+    "mcp": {
+      "source_url": "https://intellizosoftwares.com/mcp.html",
+      "title": "MCP by Intellizo",
+      "expansion_as_published": "Model Context & Orchestration Layer",
+      "summary": "The intelligence layer that connects AI to your business context; a context, orchestration and control layer rather than a simple connector.",
+      "use_cases": [
+        "Unlock insights anywhere (ask about users/products without SQL or dashboards)",
+        "Context for every team (engagement metrics, A/B tests, data quality)",
+        "Enhance AI workflows (reports, insights, actions based on user behavior)"
+      ],
+      "environments_named": ["Claude", "Cursor", "GitHub", "OpenAI", "Model Context Protocol"],
+      "environments_note": "Website wording, not a verified compatibility matrix.",
+      "faq": [
+        {"q": "How do I use Intellizo AI Agents?", "a": "Agents help automate insights and analysis based on product data (answer truncated)."},
+        {"q": "How much technical expertise is needed?", "a": "No technical background required; designed for accessibility."},
+        {"q": "What models power Agents?", "a": "Multiple leading models and internally optimized solutions."},
+        {"q": "How are Agents priced?", "a": "Pricing varies by usage and plan configuration."}
+      ]
+    },
+    "ai_visibility": {
+      "source_url": "https://www.intellizosoftwares.com/",
+      "tagline": "Reveal how LLMs talk about your brand so you can win AI search.",
+      "note": "No dedicated detail page confirmed; functionality, metrics, supported LLMs, pricing and setup are not published."
+    }
+  },
+  "research": {
+    "note": "Only card text and partial/paraphrased summaries captured; not full papers. Figures like 41% are article claims, not verified statistics.",
+    "homepage_cards": [
+      {"title": "Beyond the Bot: Architecting for a World of \"Sovereign AI\"", "description": "Intro: in 2023-2024 the world marvelled at LLMs, in 2025 companies rushed to integrate them (rest not exposed)."},
+      {"title": "The Efficiency Dividend: Using Agentic AI to Turn Operational Debt into Market Share", "description": "Companies may carry an 'operational debt' burden (rest not exposed)."},
+      {"title": "The 10x Developer & The AI-First Team Redefining \"Human + Software\" Excellence", "description": "Software industry's linear equation: more features = more developers x more hours (rest not exposed)."},
+      {"title": "From Debt to Value: Reclaiming the 41% of IT Budget Lost to Manual Legacy", "description": "Manual work is costly; gap between 'Reinventors' and others as AI adoption grows (rest not exposed)."},
+      {"title": "Architectural Alignment Strategies for Modern IT Infrastructures", "description": "Aligning system architecture with organizational workflows reduces operational complexity and failure points."},
+      {"title": "A Modular Approach to High-Performance Web Application Engineering", "description": "Examines how web frameworks behave under varying loads and integration conditions."}
+    ],
+    "service_page_cards": [
+      {"title": "Converged Interaction Models for Multi-Screen Application", "description": "Compares interaction patterns across handheld and large-screen devices."},
+      {"title": "Sensor-Assisted Indoor Positioning: A Framework for Real-Time Spatial Intelligence", "description": "Analyzes WiFi, UWB and mapping-based systems for indoor-navigation accuracy."},
+      {"title": "Practical Implementations of Distributed Ledger Systems in Enterprise Workflows", "description": "How smart contracts, tokenization and blockchain networks improve auditability and process automation."}
+    ],
+    "articles": [
+      {
+        "title": "Beyond the Bot: Architecting for a World of \"Sovereign AI\"",
+        "url": "https://intellizosoftwares.com/Beyondthebot.html",
+        "date": "2026-01-30",
+        "read_time": "15 min",
+        "summary": "Argues enterprise AI is shifting from adopting LLMs to strategic sovereignty: owning a business-specific 'Digital Brain'. Contrasts rented intelligence (data sent to external clouds) with controlled architecture.",
+        "key_points": ["Layer 1: Sovereign Cloud infrastructure (hybrid/neo-cloud, high-performance GPUs)", "Layer 2: Agent-Ready Data (real-time pipelines)", "Layer 3: Domain-Specific LLMs (smaller, tuned models)", "Conclusion: data sovereignty and custom cognitive assets"]
+      },
+      {
+        "title": "The Efficiency Dividend: Using Agentic AI to Turn Operational Debt into Market Share",
+        "url": "https://intellizosoftwares.com/The%20EfficiencyDividend.html",
+        "date": "2026-01-16",
+        "read_time": "15 min",
+        "summary": "Defines operational debt as manual workarounds, data silos and people-bridged processes; argues agentic AI converts maintenance time into innovation capacity.",
+        "key_points": ["Autonomous lead review and CRM updates", "Agentic wrappers for legacy software", "Automated data discrepancy scanning", "Approach: analyze debt, integrate personalized agents (Claude, GPT-4o, internal LLM chains), redirect saved time to growth"]
+      },
+      {
+        "title": "The 10x Developer & The AI-First Team: Redefining \"Human + Software\" Excellence",
+        "url": "https://intellizosoftwares.com/The-10x-Developer-%26-The-AI-First-Team.html",
+        "date": "2026-01-16",
+        "read_time": "15 min",
+        "summary": "Challenges the idea that output scales by adding developers and hours; describes 'Cognitive Orchestration' and 'Agentic Augmentation'.",
+        "key_points": ["AI agents assist codebase analysis, multi-file scaffolding, unit-test generation", "AI as part of the engineering operating model", "Automation handles repetitive work; humans keep high-impact decisions"]
+      },
+      {
+        "title": "From Debt to Value: Reclaiming the 41% of IT Budget Lost to Manual Legacy",
+        "url": "https://intellizosoftwares.com/fromdebttovalue.html",
+        "date": "2026-01-16",
+        "read_time": "15 min",
+        "summary": "Frames manual processes and legacy maintenance as a drain on innovation; claims ~41% of IT budgets go to technical-debt interest.",
+        "key_points": ["Pillars: agentic modernization, autonomous operations, low-latency automated handoffs", "Roadmap: audit manual effort; architect modular/API-oriented core; establish value-first culture; scale with agentic AI"]
+      },
+      {
+        "title": "Building Stable and Scalable Digital Ecosystems",
+        "url": "https://intellizosoftwares.com/researchpapersystemdesign.html",
+        "date": "2025-12-14",
+        "read_time": "10 min",
+        "summary": "System design should evolve from functional planning to strategic architecture, security engineering, performance optimization and cloud-native design; a long-term investment affecting reliability, cost, compliance, adaptability.",
+        "key_points": ["Displayed figures (unvalidated): 55% scalability/performance, 45% security/compliance/risk, 38% operational efficiency, 12% agility", "Themes: modular enterprise design, microservices, integration patterns, automation, governance"]
+      },
+      {
+        "title": "Integrating APIs, ERP, and UX Excellence",
+        "url": "https://intellizosoftwares.com/researchpaperwebdevelopment.html",
+        "date": "2025-12-12",
+        "read_time": "15 min",
+        "summary": "Web applications as operational systems; combines user-centered design, robust development, integrations and real-time interactions.",
+        "key_points": ["Only opening and partial body captured; not complete"]
+      }
+    ]
+  },
+  "contact": {
+    "source_url": "https://intellizosoftwares.com/contact.html",
+    "channels": [
+      {"purpose": "Business", "value": "info@intellizo.in"},
+      {"purpose": "Queries / support", "value": "support@intellizo.in"},
+      {"purpose": "Advertising Division", "value": "www.intellizodigitals.com"},
+      {"purpose": "General footer / newsletter", "value": "hello@intellizosoftwares.com"},
+      {"purpose": "Privacy Policy (as published)", "value": "info@intellizosofwtares.com; +91-9090077666", "note": "Likely typo; verify with site owner."}
+    ],
+    "meeting_form": {
+      "fields": ["Full Name", "Email Address", "Phone Number", "Company", "Meeting Type", "What would you like to discuss", "Opt-in for tech insights"],
+      "meeting_types": ["Project Consultation", "Partnership Discussion", "Technical Review", "Other"]
+    },
+    "project_enquiry_form": {
+      "fields": ["Name", "Email", "Phone", "Service selection", "Company Name", "Preferred Call Time"],
+      "service_options": ["Software Development", "AI & Machine Learning", "Cloud & SaaS Solutions", "UI/UX Design"]
+    }
+  },
+  "privacy_policy": {
+    "source_url": "https://www.intellizosoftwares.com/privacypolicy.html",
+    "effective_date": "2025-01-01",
+    "sections": {
+      "information_collected": ["Name", "Email address", "Phone number", "Company name (if applicable)", "Information shared through inquiry forms"],
+      "purpose": "Responding to inquiries, providing services, managing client communication, improving website and offerings.",
+      "data_security": "Industry-standard security measures against unauthorized access, misuse, disclosure.",
+      "cookies_and_analytics": "May use cookies/analytics; stated not to identify visitors personally.",
+      "data_retention": "Only as long as necessary for stated purposes or as required by law.",
+      "third_party_services": "Trusted providers for hosting, analytics, communication; contractually required to protect information.",
+      "user_rights": "Access, update, request deletion, withdraw consent for communication at any time.",
+      "policy_updates": "May be updated periodically; effective date changes on the page.",
+      "contact": "info@intellizosofwtares.com; +91-9090077666 (verify spelling)"
+    }
+  },
+  "careers": {
+    "source_url": "https://www.intellizosoftwares.com/career.html",
+    "filters": {"departments": ["Tech", "Design", "Marketing", "HR"], "location": true},
+    "note": "Time-sensitive; additional jobs may exist beyond captured text.",
+    "openings": [
+      {
+        "title": "Custom Software Engineer",
+        "location": "Bhubaneswar",
+        "type": "Full Time",
+        "experience": "5–10 Years",
+        "summary": "Design, develop, and deploy scalable enterprise applications.",
+        "responsibilities": ["Design/build/maintain scalable applications", "Collaborate cross-functionally", "Ensure performance, quality, security", "Participate in code reviews and architecture discussions"],
+        "required_skills": ["JavaScript / backend technologies", "REST APIs and database design", "Problem-solving and debugging"]
+      },
+      {
+        "title": "UI / UX Designer",
+        "location": "Bhubaneswar",
+        "type": "Full Time",
+        "experience": "3–6 Years",
+        "summary": "Craft intuitive, visually appealing user experiences across digital platforms."
+      }
+    ]
+  },
+  "navigation": [
+    {"area": "Homepage", "url": "https://www.intellizosoftwares.com/"},
+    {"area": "About", "url": "https://www.intellizosoftwares.com/about.html"},
+    {"area": "Resources", "url": "https://www.intellizosoftwares.com/resources.html"},
+    {"area": "Privacy Policy", "url": "https://www.intellizosoftwares.com/privacypolicy.html"},
+    {"area": "Global Presence", "url": "https://www.intellizosoftwares.com/globalpresence.html"},
+    {"area": "Services overview", "url": "https://www.intellizosoftwares.com/service.html"},
+    {"area": "System Design", "url": "https://www.intellizosoftwares.com/systemintegration.html"},
+    {"area": "Web Development", "url": "https://www.intellizosoftwares.com/webdevelopment.html"},
+    {"area": "Mobile & Smart TV", "url": "https://www.intellizosoftwares.com/Mobile%26smarttvapp.html"},
+    {"area": "AI Development", "url": "https://www.intellizosoftwares.com/ai%26machinelearning.html"},
+    {"area": "Indoor Navigation", "url": "https://www.intellizosoftwares.com/indoornavigation.html"},
+    {"area": "Blockchain Development", "url": "https://www.intellizosoftwares.com/Blockchaindevelopment.html"},
+    {"area": "AI Agents", "url": "https://www.intellizosoftwares.com/aiagents.html"},
+    {"area": "MCP", "url": "https://intellizosoftwares.com/mcp.html"},
+    {"area": "Contact", "url": "https://intellizosoftwares.com/contact.html"},
+    {"area": "Careers", "url": "https://www.intellizosoftwares.com/career.html"},
+    {"area": "Culture", "url": "https://www.intellizosoftwares.com/Intellizoculture.html"}
+  ],
+  "known_conflicts": [
+    {"topic": "Company metrics", "details": ["Homepage: 108+ clients, 8+ countries", "Resources page (rendered): 0 for countries, clients, AI products, verticals; 0 members per team", "Resources page (indexed version): 8+ countries, 106 clients, 25 AI products, 3 verticals; non-zero team counts"]},
+    {"topic": "Contact emails", "details": ["Contact page: info@intellizo.in, support@intellizo.in", "Footer: hello@intellizosoftwares.com (variant: hello@intellizo.com)", "Privacy Policy: info@intellizosofwtares.com (probable typo)"]}
+  ],
+  "rag_response_policy": [
+    "When facts conflict, report the conflict or use a site-owner-verified source; do not silently pick a number.",
+    "Use source URL and page date as metadata; treat job listings and metrics as time-sensitive.",
+    "For pricing, delivery times, SLAs, certifications, specific AI models and unlisted integrations, say the website does not specify.",
+    "Do not invent prices, plans, SLAs or limitations; do not treat 'any AI platform' as a compatibility guarantee.",
+    "Keep the MCP expansion as published: 'Model Context & Orchestration Layer'.",
+    "For demos, quotes or enquiries, link to the official contact/meeting flow; never pretend a request was sent."
+  ]
+}

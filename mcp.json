@@ -1,0 +1,6 @@
+{
+  "transport": "streamable-http",
+  "server_url": "http://127.0.0.1:8000/mcp",
+  "health_url": "http://127.0.0.1:8000/health",
+  "notes": "Configure server_url to point to your deployed production URL (e.g. https://mcp.intellizosoftwares.com/mcp) when connecting remote MCP clients like ChatGPT."
+}

@@ -9,6 +9,9 @@ import argparse
 import sys
 from typing import Any
 
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from mcp.server.streamable_http_manager import TransportSecuritySettings
 from starlette.requests import Request
 from starlette.responses import JSONResponse, Response
 
@@ -47,34 +50,71 @@ def create_mcp_server() -> FastMCP:
     # Register all 10 MCP tools
     register_tools(server)
 
-    # Health check route
-    @server.custom_route("/health", methods=["GET"])
-    async def health_check(request: Request) -> Response:
-        return JSONResponse(
-            {
-                "status": "healthy",
-                "server": settings.app_name,
-                "version": settings.app_version,
-                "company": settings.company_name,
-                "transport": settings.transport,
-                "endpoint": settings.streamable_http_path,
-                "tools_count": len(ALL_TOOLS),
-            }
-        )
-
     return server
 
 
-# Global server instance
+# Global FastMCP server instance
 mcp_server = create_mcp_server()
+
+# Configure transport security (disabling DNS rebinding protection for cloud hosts like Vercel)
+transport_security = TransportSecuritySettings(enable_dns_rebinding_protection=False)
+mcp_asgi_app = mcp_server.streamable_http_app(
+    streamable_http_path=settings.streamable_http_path,
+    transport_security=transport_security,
+)
+
+# Top-level FastAPI instance (required by Vercel, Uvicorn, and cloud ASGI runtimes)
+app = FastAPI(
+    title=settings.app_name,
+    version=settings.app_version,
+    description="Intellizo Softwares Production MCP Server",
+    lifespan=mcp_asgi_app.router.lifespan_context,
+)
+
+# Enable CORS for web and cloud MCP clients
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+@app.get("/health")
+async def health_check():
+    """Health check endpoint for monitoring, Vercel, and container probes."""
+    return {
+        "status": "healthy",
+        "server": settings.app_name,
+        "version": settings.app_version,
+        "company": settings.company_name,
+        "transport": settings.transport,
+        "endpoint": settings.streamable_http_path,
+        "tools_count": len(ALL_TOOLS),
+    }
+
+
+@app.get("/")
+async def root():
+    """Root endpoint providing service information."""
+    return {
+        "status": "online",
+        "server": settings.app_name,
+        "version": settings.app_version,
+        "docs_url": "/docs",
+        "health_url": "/health",
+        "mcp_endpoint": settings.streamable_http_path,
+    }
+
+
+# Mount the MCP Streamable HTTP app
+app.mount("", mcp_asgi_app)
 
 
 def get_asgi_app():
-    """Return the Starlette ASGI application for Streamable HTTP."""
-    return mcp_server.streamable_http_app(
-        streamable_http_path=settings.streamable_http_path,
-        host=settings.host,
-    )
+    """Return the ASGI application instance."""
+    return app
 
 
 def main():
@@ -116,11 +156,13 @@ def main():
             args.path,
         )
         logger.info("Health check endpoint: http://%s:%d/health", args.host, args.port)
-        mcp_server.run(
-            transport="streamable-http",
+        import uvicorn
+
+        uvicorn.run(
+            app,
             host=args.host,
             port=args.port,
-            streamable_http_path=args.path,
+            log_level=settings.log_level.lower(),
         )
     elif args.transport == "sse":
         logger.info("SSE MCP endpoint: http://%s:%d/sse", args.host, args.port)

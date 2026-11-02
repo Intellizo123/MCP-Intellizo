@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from typing import Any, Dict, Optional
 
-from utils.config import settings
+from utils.config import resolve_data_json_path, settings
 from utils.logger import logger
 
 REQUIRED_TOP_LEVEL_KEYS = [
@@ -71,7 +71,12 @@ def load_knowledge_base(file_path: Optional[Path | str] = None, force_reload: bo
     if _cached_data is not None and not force_reload:
         return _cached_data
 
-    path = Path(file_path) if file_path else settings.data_json_path
+    if file_path:
+        path = Path(file_path)
+    else:
+        path = settings.data_json_path
+        if not path.exists():
+            path = resolve_data_json_path()
 
     if not path.exists():
         raise FileNotFoundError(f"Knowledge base file not found at: {path}")
